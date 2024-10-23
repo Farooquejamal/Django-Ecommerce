@@ -34,7 +34,7 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['farooque-ecommerce-django.up.railway.app','https://farooque-ecommerce-django.up.railway.app']
+ALLOWED_HOSTS = ['farooque-ecommerce-django.up.railway.app','https://farooque-ecommerce-django.up.railway.app','loacalhost','127.0.0.1']
 CSRF_TRUSTED_ORIGINS = ['https://farooque-ecommerce-django.up.railway.app']
 
 
