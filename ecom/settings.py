@@ -87,14 +87,14 @@ WSGI_APPLICATION = 'ecom.wsgi.application'
 
 DATABASES = {
   'default': {
-    #   dj_database_url.config(default=os.environ.get('DATABASE_URL'))
-    'ENGINE': 'django.db.backends.postgresql_psycopg2', 
+      dj_database_url.config(default=os.environ.get('DATABASE_URL'))
+    # 'ENGINE': 'django.db.backends.postgresql_psycopg2', 
     # 'ENGINE': 'django.db.backends.postgresql', #tried django.db.backends.postgresql, not working
-    'NAME': 'railway',
-    'USER': 'postgres',
-    'PASSWORD': os.environ.get('DB_PASSWORD'),
-    'HOST': 'junction.proxy.rlwy.net',
-    'PORT': '21906',
+    # 'NAME': 'railway',
+    # 'USER': 'postgres',
+    # 'PASSWORD': os.environ.get('DB_PASSWORD'),
+    # 'HOST': 'junction.proxy.rlwy.net',
+    # 'PORT': '21906',
   }
 }
 
